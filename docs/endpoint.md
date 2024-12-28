@@ -23,7 +23,7 @@ curl -X GET "https://api.worldoftanks.eu/wot/account/achievements/?application_i
 ```
 
 - Get the list of all the vehicules in the game 
-> [!NOTICE]
+> [!NOTE]
 > This method takes longer to respond, create a local database for later use of these data
 ```bash
 curl -X GET "https://api.worldoftanks.eu/wot/encyclopedia/vehicles/?application_id=${app_id}"
